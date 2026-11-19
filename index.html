@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Precision manufacturing solutions for ambitious businesses. From prototype to production, Star Manufacturing supports your next milestone.">
+
+    <title>Star Manufacturing | Built for Progress</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header" id="top">
+
+        <a class="brand" href="#top" aria-label="Star Manufacturing home">
+            <img
+                src="assets/star_manufacturing_logo.png"
+                alt="Star Manufacturing logo"
+            >
+        </a>
+
+        <nav class="main-navigation" aria-label="Main navigation">
+            <a href="#solutions">Solutions</a>
+            <a href="#industries">Industries</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" aria-labelledby="hero-title">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">ENGINEERING WHAT'S NEXT</p>
+
+                <h1 id="hero-title">Built for progress.</h1>
+
+                <p class="hero-intro">
+                    Precision manufacturing solutions for ambitious businesses.
+                </p>
+
+                <p class="hero-description">
+                    From prototype to production, dependable manufacturing
+                    expertise supports your next milestone.
+                </p>
+
+                <a href="#contact" class="primary-button">
+                    Request a consultation
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="assets/industrial_facility_hero.png"
+                    alt="Star Manufacturing industrial facility illustration"
+                >
+            </div>
+
+        </section>
+
+        <!-- FEATURES SECTION -->
+        <section class="features" id="solutions">
+
+            <div class="section-container">
+
+                <h2>WHY WORK WITH STAR</h2>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+
+                        <img
+                            src="assets/precision_icon.png"
+                            alt=""
+                            class="feature-icon"
+                        >
+
+                        <div class="feature-content">
+                            <h3>Precision engineering</h3>
+                            <p>
+                                Tight tolerances and consistent engineering methods.
+                            </p>
+                        </div>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <img
+                            src="assets/quality_icon.png"
+                            alt=""
+                            class="feature-icon"
+                        >
+
+                        <div class="feature-content">
+                            <h3>Quality assurance</h3>
+                            <p>
+                                Documented inspection at every meaningful stage.
+                            </p>
+                        </div>
+
+                    </article>
+
+                    <article class="feature-card">
+
+                        <img
+                            src="assets/capacity_icon.png"
+                            alt=""
+                            class="feature-icon"
+                        >
+
+                        <div class="feature-content">
+                            <h3>Scalable production</h3>
+                            <p>
+                                Flexible capacity that matches project demand.
+                            </p>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- INDUSTRIES SECTION -->
+        <section class="supporting-section" id="industries">
+
+            <div class="section-container">
+
+                <p class="eyebrow">MANUFACTURING PARTNERSHIP</p>
+
+                <h2>From prototype to production.</h2>
+
+                <p>
+                    Precision manufacturing solutions for procurement
+                    managers and engineering teams seeking dependable
+                    manufacturing partnerships in India.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="supporting-section about-section" id="about">
+
+            <div class="section-container">
+
+                <p class="eyebrow">ABOUT STAR MANUFACTURING</p>
+
+                <h2>Built with care. Delivered with confidence.</h2>
+
+                <p>
+                    Dependable manufacturing expertise supports ambitious
+                    businesses from prototype to production.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- CONSULTATION FORM -->
+        <section class="register" id="contact">
+
+            <div class="register-container">
+
+                <h2>Request a consultation</h2>
+
+                <p class="register-description">
+                    Tell us about your manufacturing requirement.
+                    Our team can review your project details.
+                </p>
+
+                <form id="consultation-form" novalidate>
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+
+                            <label for="full-name">Full Name</label>
+
+                            <input
+                                type="text"
+                                id="full-name"
+                                name="full_name"
+                                placeholder="Your full name"
+                                autocomplete="name"
+                                required
+                            >
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="work-email">Work Email</label>
+
+                            <input
+                                type="email"
+                                id="work-email"
+                                name="email"
+                                placeholder="you@company.com"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="company">Company</label>
+
+                            <input
+                                type="text"
+                                id="company"
+                                name="company"
+                                placeholder="Company name"
+                                autocomplete="organization"
+                                required
+                            >
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="message">Project Message</label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                placeholder="Tell us about your project"
+                                rows="3"
+                                required
+                            ></textarea>
+
+                        </div>
+
+                    </div>
+
+                    <!-- CONSENT -->
+                    <div class="consent-group">
+
+                        <input
+                            type="checkbox"
+                            id="consent"
+                            name="consent"
+                            required
+                        >
+
+                        <label for="consent">
+                            I agree to be contacted about my enquiry.
+                        </label>
+
+                    </div>
+
+                    <!-- SUBMIT BUTTON -->
+                    <button type="submit" class="submit-button">
+                        Send request
+                    </button>
+
+                    <!-- FORM RESPONSE -->
+                    <p
+                        id="form-status"
+                        class="form-status"
+                        role="status"
+                        aria-live="polite"
+                    ></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <p>
+            © Star Manufacturing · Built with care. Delivered with confidence.
+        </p>
+
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script type="module" src="js/app.js"></script>
+
+</body>
+</html>
